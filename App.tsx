@@ -1,6 +1,7 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import StorybookUIHMRRoot from "./storybook";
+import * as React from "react"
+import { StyleSheet, Text, View } from "react-native"
+
+import StorybookUIHMRRoot from "./storybook"
 
 export class App extends React.Component {
   render() {
@@ -8,7 +9,7 @@ export class App extends React.Component {
       <View style={styles.container}>
         <Text>A lot faster?</Text>
       </View>
-    );
+    )
   }
 }
 
@@ -19,6 +20,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center"
   }
-});
+})
 
-export default StorybookUIHMRRoot;
+// export default App
+export default StorybookUIHMRRoot
