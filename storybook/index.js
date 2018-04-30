@@ -21,5 +21,4 @@ class StorybookUIHMRRoot extends Component {
   }
 }
 
-AppRegistry.registerComponent('%APP_NAME%', () => StorybookUIHMRRoot);
 export default StorybookUIHMRRoot;
